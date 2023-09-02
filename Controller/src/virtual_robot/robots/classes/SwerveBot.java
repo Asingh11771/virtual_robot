@@ -23,7 +23,7 @@ import virtual_robot.util.Vector2D;
  * SwerveBot is the controller class for the "swerve_bot.fxml" markup file.
  *
  */
-//@BotConfig(name = "Swerve Bot", filename = "swerve_bot")
+@BotConfig(name = "Swerve Bot", filename = "swerve_bot")
 public class SwerveBot extends VirtualBot {
 
     private final MotorType MOTOR_TYPE = MotorType.Neverest40;
